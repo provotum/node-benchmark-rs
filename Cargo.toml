@@ -1,0 +1,17 @@
+[package]
+name = "node_benchmark_rs"
+version = "0.1.0"
+authors = ["Raphael Matile <raphael.matile@gmail.com>"]
+
+[dependencies]
+log = "0.4"
+env_logger = "0.5.13"
+pretty_env_logger = "0.2"
+crypto-rs = { git = "https://github.com/provotum/crypto-rs.git", branch = "master" }
+node_rs = { git = "https://github.com/provotum/node-rs.git", branch = "master" }
+generator_rs = { git = "https://github.com/provotum/generator-rs.git", branch = "master" }
+num = "0.2.0"
+serde = "1.0"
+serde_derive = "1.0"
+serde_json = "1.0"
+bincode = "1.0"
